@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <!-- Page-Header -->
+    <header class="page-header line">
+        <div class="container page-header-container">
+<nav class="page-nav">
+           <a href="./index.html" class="page-nav__logo">Web<span class="page-nav_logo_header">Studio</span></a>
+        <ul class="site-nav">
+            <li> <a href="./index.html" class="site-nav__link">Студия</a></li>
+            <li> <a href="./portfolio.html" class="site-nav__link site-nav_link_curent">Портфолио</a></li>
+            <li"><a href="" class="site-nav__link">Контакты</a></li>   
+        </ul>
+        <button type="button" class="mobile-menu-open" data-menu-open><svg class="mobile-menu-open__icon" width="40"
+                height="40">
+                <use href="./images/sprite.svg#burger-icon"></use>
+            </svg>
+        </button>
+</nav>
+        <ul class="header-contacts">
+            <li class="header-contacts__item">
+            <a href="" class="header-contacts__link"><svg class="header-contacts__icon" width="16" height="12">
+            <use href="./images/sprite.svg#icon-envelope"></use>
+            </svg>info@devstudio.com 
+            </a>
+            </li>
+            <li class="header-contacts__item">
+            <a href="" class="header-contacts__link"><svg class="header-contacts__icon" width="10" height="16">
+            <use href="./images/sprite.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a></li>
+        </ul>
+    </div>
+</header>
+    <!-- ======= Mobile-menu ======= -->
+    <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+            <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                <svg class="burger" width="30" height="30">
+                    <use href="./images/sprite.svg#icon-close_button"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="./index.html">Студія</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link mobile-menu_link_curent" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="">Контакти</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__contacts">
+                <li class="mobile-menu__contacts__item"> <a class="mobile-menu__phone" href="tel:0961111111">+38 096 111 11
+                        11</a></li>
+                <li class="mobile-menu__contacts__item"> <a class="mobile-menu__mail"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+            <ul class="mobile-menu__social-list">
+                <li class="mobile-menu__social-list__item">
+                    <a class="mobile-menu__social-list__link" href=""><span lang="en">Instagram</span></a>
+                </li>
+                <li class="mobile-menu__social-list__item">
+                    <a class="mobile-menu__social-list__link" href=""><span lang="en">Twitter</span></a>
+                </li>
+                <li class="mobile-menu__social-list__item">
+                    <a class="mobile-menu__social-list__link" href=""><span lang="en">Facebook</span></a>
+                </li>
+                <li class="mobile-menu__social-list__item">
+                    <a class="mobile-menu__social-list__link" href=""><span lang="en">LinkedIn</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <!-- Filter -->
+       <h1 class="hidden">Наши работы</h1>
+       <section class="main-portfolio-container">
+        <div class="container">
+        <ul class="filter">
+            <li> <button type="button" class="button">Все</button></li>
+            <li> <button type="button" class="button">Веб-сайты</button></li>
+            <li> <button type="button" class="button">Приложения</button></li>
+            <li> <button type="button" class="button">Дизайн</button></li> 
+            <li> <button type="button" class="button">Маркетинг</button></li>      
+        </ul>
+        <!-- Portfolio -->
+        <ul class="services">
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source srcset="./images/page2/technology.jpg 1x, ./images/page2/technology@2x.jpg 2x" 
+                            media="(min-width:1200px)">
+                            <source srcset="./images/tablet_images/portfolio/t-technology.jpg 1x, ./images/tablet_images/portfolio/t-technology@2x.jpg 2x" 
+                            media="(min-width:768px)">
+                            <source srcset="./images/mobile_imeges/Portfolio/m-technokryack@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-technokryack@2x.jpg 2x" 
+                            media="(max-width:767px)">
+                            <img src="./images/mobile_imeges/Portfolio/m-technokryack@1x.jpg" alt="Открытый нутбук" width="370">
+                        </picture>
+                        <p class="card-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. 
+                        Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                    </div>
+            <div class="porffolio-card-content-wrapper">
+            <h3 class="second-list-title">Технокряк</h3>
+            <p class="second-list-content">Веб-сайт</p>
+            </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                        <source 
+                        srcset="./images/page2/new_orlean-vs-golden_star.jpg 1x, ./images/page2/new_orlean-vs-golden_star@2x.jpg 2x" 
+                        media="(min-width:1200px)">
+                        <source
+                            srcset="./images/tablet_images/portfolio/t-bascetball@1x.jpg 1x, ./images/tablet_images/portfolio/t-bascetball@2x.jpg 2x"
+                            media="(min-width:768px)">
+                        <source
+                            srcset="./images/mobile_imeges/Portfolio/m-basketball@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-basketball@2x.jpg 2x"
+                            media="(max-width:767px)">
+                        <img src="./images/mobile_imeges/Portfolio/m-basketball@1x.jpg" alt="Игра в баскетбол" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                        Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                    </p>
+                    </div>
+                    <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                    <p class="second-list-content">Дизайн</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source srcset="./images/page2/seafood.jpg 1x, ./images/page2/seafood@2x.jpg 2x" media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-seafood@1x.jpg 1x, ./images/tablet_images/portfolio/t-seafood@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images/mobile_imeges/Portfolio/m-seafood@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-seafood@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images/mobile_imeges/Portfolio/m-seafood@1x.jpg" alt="Логотип ресторана с рыбой" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                    <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Ресторан <span lang="en">Seafood</span></h3>
+                    <p class="second-list-content">Приложение</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source 
+                            srcset="./images/page2/earphone.jpg 1x, ./images/page2/earphone@2x.jpg 2x" 
+                            media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-eirphones@1x.jpg 1x, ./images/tablet_images/portfolio/t-eirphones@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-eirphones@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-eirphones@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images/tablet_images/portfolio/t-eirphones@1x.jpg" alt="Наушники" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                    <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Проект <span lang="en">Prime</span></h3>
+                    <p class="second-list-content">Маркетинг</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source 
+                            srcset="./images/page2/boxes.jpg 1x, ./images/page2/boxes@2x.jpg 2x" 
+                            media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-boxes@1x.jpg 1x, ./images/tablet_images/portfolio/t-boxes@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images/mobile_imeges/Portfolio/m-boxes@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-boxes@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images/mobile_imeges/Portfolio/m-boxes@1x.jpg" alt="Коробки" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                        <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Проект <span lang="en">Boxes</span></h3>
+                    <p class="second-list-content">Приложение</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source 
+                                srcset="./images/page2/display.jpg 1x, ./images/page2/display@2x.jpg 2x" 
+                                media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-screen@1x.jpg 1x, ./images/tablet_images/portfolio/t-screen@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images/mobile_imeges/Portfolio/m-screen@1x.jpg 1x, ./images/mobile_imeges/Portfolio/m-screen@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images/mobile_imeges/Portfolio/m-screen@1x.jpg" alt="Монитор" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                        <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title" lang="en">Inspiration has no Borders</h3>
+                    <p class="second-list-content">Веб-сайт</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source 
+                            srcset="./images/page2/book.jpg 1x, ./images/page2/book@2x.jpg 2x" 
+                            media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-book@1x.jpg 1x, ./images/tablet_images/portfolio/t-book@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images//mobile_imeges/Portfolio/m-book@1x.jpg 1x, ./images//mobile_imeges/Portfolio/m-book@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images//mobile_imeges/Portfolio/m-book@1x.jpg" alt="Открытая книга" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                        <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Издание<span lang="en">Limited Edition</span></h3>
+                    <p class="second-list-content">Дизайн</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                            <picture>
+                                <source 
+                                srcset="./images/page2/lable.jpg 1x, ./images/page2/lable@2x.jpg 2x" 
+                                media="(min-width:1200px)">
+                                <source
+                                    srcset="./images/tablet_images/portfolio/t-label@1x.jpg 1x, ./images/tablet_images/portfolio/t-label@2x.jpg 2x"
+                                    media="(min-width:768px)">
+                                <source
+                                    srcset="./images//mobile_imeges/Portfolio/m-label@1x.jpg 1x, ./images//mobile_imeges/Portfolio/m-label@2x.jpg 2x"
+                                    media="(max-width:767px)">
+                                <img src="./images//mobile_imeges/Portfolio/m-label@1x.jpg" alt="Ярлык от одежды" width="370">
+                            </picture>
+                    <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                        Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                    </p>
+                </div>
+                    <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title">Проект <span lang="en">LAB</span></h3>
+                    <p class="second-list-content">Маркетинг</p>
+                    </div>
+                </a>
+            </li>
+            <li class="sample-list-item">
+                <a href="" class="sample">
+                    <div class="sample-list-img">
+                        <picture>
+                            <source 
+                            srcset="./images/page2/laptop.jpg 1x, ./images/page2/laptop@2x.jpg 2x" 
+                            media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet_images/portfolio/t-laptop@1x.jpg 1x, ./images/tablet_images/portfolio/t-laptop@2x.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images//mobile_imeges/Portfolio/m-laptop@1x.jpg 1x, ./images//mobile_imeges/Portfolio/m-laptop@2x.jpg 2x"
+                                media="(max-width:767px)">
+                            <img src="./images/mobile_imeges/Portfolio/m-laptop@1x.jpg" alt="Набор текста на ноутбуке" width="370">
+                        </picture>
+                        <p class="card-overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Reiciendis, ad suscipit. Voluptas esse consequuntur ex deserunt at? Sed, ad. 
+                            Dignissimos eligendi cupiditate ullam excepturi suscipit dolorem delectus temporibus pariatur asperiores!
+                        </p>
+                    </div>
+                    <div class="porffolio-card-content-wrapper">
+                    <h3 class="second-list-title" lang="en">Growing Business</h3>
+                    <p class="second-list-content">Приложение</p>
+                    </div>
+                </a>
+            </li> 
+        </ul>
+            </div>
+       </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-general-container">
+             <!-- Logo -->
+            <div class="footer-contacts">
+              <a href="/" class="logo-footer">Web<span class="logo-footer__logo-color-footer">Studio</span></a>
+              <address class="address">
+              <p class="address__margin">м. Київ, пр-т Лесі Українки, 26</p> 
+             <!-- Contacts -->
+              <ul>
+              <li class="address__margin"><a href="mailto:info@example.com" class="address__contacts">info@example.com</a></li>
+              <li class="address__margin"><a href="tel:0991111111" class="address__contacts">099 111 11 11</a></li>
+              </ul>
+              </address>
+            </div>
+            <div class="block-social">
+                <h3 class="footer-title">ПРИЄДЕУЙТЕСЬ</h3>
+                <ul class="footer-social-list list">
+                <li><a href="" class="footer-social-list__footer-social-link"><svg class="footer-social-list_footer-social-link_icon" width="20" height="20"><use href="./images/sprite.svg#icon-instagram"></use></svg></a></li>
+                <li><a href="" class="footer-social-list__footer-social-link"><svg class="footer-social-list_footer-social-link_icon" width="20" height="20"><use href="./images/sprite.svg#icon-twitter"></use></svg></a></li>
+                <li><a href="" class="footer-social-list__footer-social-link"><svg class="footer-social-list_footer-social-link_icon" width="20" height="20"><use href="./images/sprite.svg#icon-facebook"></use></svg></a></li>
+                <li><a href="" class="footer-social-list__footer-social-link"><svg class="footer-social-list_footer-social-link_icon" width="20" height="20"><use href="./images/sprite.svg#icon-linkedin"></use></svg></a></li>
+                </ul>
+            </div>
+            <div class="block-sbscribe">
+                <h3 class="footer-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+                <form class="subscribe">
+                <input class="subscribe__form" type="email" placeholder="E-mail" name="user_email" required>
+                <button type="submit" class="subscribe__btn">Підписатися <svg class="subscribe__icon" width="24" height="24"><use href="./images/sprite.svg#icon-icon-send"></use></svg></button>
+                </form>
+            </div>
+        </div>      
+        </footer>
+        <script src="./js/mobile-menu.js"></script>
+</body>
+</html>
